@@ -1,7 +1,3 @@
-Perfect 👍 — here’s a **clean, final version** with **no extra notes**, ready to copy-paste directly into your `README.md`.
-
----
-
 ````markdown
 # Replicating MC-DML: Memory-Guided MCTS for Text-Based Games
 
@@ -12,7 +8,7 @@ We implemented both the **Baseline MCTS** approach and the proposed **MC-DML (Dy
 
 ---
 
-## 🎯 Project Objectives & Constraints
+##  Project Objectives & Constraints
 
 This project was built to satisfy specific architectural constraints:
 
@@ -33,7 +29,7 @@ This project was built to satisfy specific architectural constraints:
 
 ---
 
-## ⚙️ Architecture
+##  Architecture
 
 - **Reasoning Engine:**  
   OpenAI API (`gpt-4o-mini`) acts as both:
@@ -76,21 +72,21 @@ No manual ROM downloads are required.
 
 ---
 
-## 📊 Summary of Results
+##  Summary of Results
 
 Our replication successfully validated the core claims of the paper:
 
-### 🔎 Baseline Vulnerability
+###  Baseline Vulnerability
 
 Standard UCB1 exploration blindly exploited generic actions
 (e.g., repeatedly trying to **"go north"** through a locked door) without semantic reasoning.
 
-### 🧠 MC-DML Success
+###  MC-DML Success
 
 Cross-trial memory enabled the agent to dynamically adjust action generation
 (e.g., proposing **"examine mailbox"** instead of **"go north"**), improving exploration efficiency.
 
-### 📈 Scale Findings
+###  Scale Findings
 
 * Strong performance in semantically structured environments
 
@@ -103,7 +99,7 @@ Cross-trial memory enabled the agent to dynamically adjust action generation
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 ├── src/
@@ -121,22 +117,3 @@ Cross-trial memory enabled the agent to dynamically adjust action generation
 
 ---
 
-## 🚀 Future Improvements
-
-* Add retrieval-augmented memory instead of static reflections
-* Experiment with stronger reasoning models
-* Parallelize MCTS rollouts for faster planning
-* Add visualization dashboard for tree exploration
-
-```
-
----
-
-If you want, I can now also:  
-
-- Add a **short abstract section (for grading)**  
-- Write a **citation block (BibTeX)**  
-- Create a **1-paragraph executive summary**  
-
-Just tell me 👍
-```
