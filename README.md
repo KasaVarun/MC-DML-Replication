@@ -1,9 +1,3 @@
----
-
-### **2. File: `README.md**`
-
-Paste this into a Markdown file. This is the front page of your project.
-
 ```markdown
 #  Replicating MC-DML: Memory-Guided MCTS for Text-Based Games
 
