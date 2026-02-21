@@ -48,7 +48,7 @@ During later planning phases, this memory is injected into prompts to prune the 
 ## Installation and Setup
 
 ### 1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/MC-DML-Replication.git
+git clone https://github.com/KasaVarun/MC-DML-Replication.git
 cd MC-DML-Replication
 
 ### 2. Install dependencies
