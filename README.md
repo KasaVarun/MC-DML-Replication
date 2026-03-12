@@ -5,6 +5,8 @@ This repository contains the code and evaluation data for our replication of the
 
 We implemented both the Baseline MCTS approach and the proposed MC-DML (Dynamic Memory-Guided) approach from scratch to solve text-based interactive fiction games using the Jericho benchmark.
 
+
+
 ---
 
 ## Project Objectives and Constraints
@@ -101,11 +103,7 @@ notebooks/
 README.md
 requirements.txt
 
+
+Video Link: https://drive.google.com/file/d/1pkImo0P1R3Zl21a6fCj2tIo3SaHbflyc/view?usp=sharing
+
 ---
-
-## Future Improvements
-
-- Add retrieval-augmented memory instead of static reflections
-- Experiment with stronger reasoning models
-- Parallelize MCTS rollouts for faster planning
-- Add visualization dashboard for tree exploration
